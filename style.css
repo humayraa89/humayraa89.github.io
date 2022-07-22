@@ -1,0 +1,90 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #D4F4DD; 
+text-align: center;
+}
+
+
+/* STYLE TEXT */
+h1 {
+  color: #17BEBB;
+  text-align: center; 
+  font-size: 70px; 
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-family: 'Roboto Condensed';
+}
+
+h2{
+  text-align: center;
+  font-family: 'Rubik';
+  color: #0E7C7B;
+  padding-bottom:0.5em;
+}
+h3{
+  text-align: center;
+  font-family: 'Roboto Condensed';
+  color: cadetblue;
+  padding-bottom:0.5em;
+  padding-top: 1.5em;
+  font-size: 35px;
+}
+p {
+  color: #0E7C7B;
+  font-size: 26px;
+  font-style: italic;
+  font-family: 'Rubik';
+  text-align: center;
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+}
+
+/* STYLE IMAGES */
+img{
+  width: 1500px;
+  height: 350px;
+  float: center;
+  border-bottom: 1px solid black;
+  box-shadow: 10px 8px #17BEBB;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  margin: 1;
+  padding: 1;
+  background-color: #0E7C7B;
+}
+
+li {
+  float: left;
+  font-size: 20px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-family: 'Barlow';
+}
+
+li a:hover {
+  background-color: #17BEBB;
+}
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
